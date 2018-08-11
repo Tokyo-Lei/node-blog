@@ -1,0 +1,87 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a{
+    border: none;
+    padding: 0.6em 3em;
+    background: #fff;
+    color: #000;
+    border: #c2c2c2 solid 1px; 
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin: 3px 2px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+a:hover {
+
+   color: #fff;
+	 background: #c0392b;
+}
+
+.active{
+	 color: #fff;
+	 background: #c0392b;
+	 border: #c0392b solid 1px; 
+	
+}
+
+hr{
+border-top:  #c2c2c2 solid 1px; 
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px;
+}
+
+ul,li{
+	list-style: none;
+}
+
+div{
+		display: block;
+
+}
+
+.btn{
+	  width: 78px;
+    margin: 11px 10px 0 0;
+    padding: 7px 18px;
+    font-size: 14px;
+    border: none;
+    color: #fff!important;
+    background-color: #3194d0;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+
+.content{
+	width: 100%;
+	height: auto;
+
+}
+
+.content .left{
+	width: 12%;
+	float: left;
+	
+}
+.content .right{
+	width: 88%;
+	float: left;
+}
+
+
+
+.danger{
+
+	background-color: #f2dede;
+	padding: 15px;
+}
